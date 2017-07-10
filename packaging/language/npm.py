@@ -187,7 +187,7 @@ class Npm(object):
         return ''
 
     def list(self):
-        cmd = ['list', '--json']
+        cmd = ['list', '--json', '--long']
 
         installed = list()
         missing = list()
